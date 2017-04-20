@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayoutBase"
+    android:background="@drawable/backgroundhombro">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageViewEjercicio"
+        android:layout_below="@+id/imageViewTexto"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hombro4"
+        android:layout_marginTop="-15dp" />
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageViewTexto"
+        android:src="@drawable/ejercicioshombros"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Levantamiento Frontal\n(de pie)"
+        android:id="@+id/textViewEjercicioH4Info"
+        android:layout_marginTop="-35dp"
+        android:layout_below="@+id/imageViewEjercicio"
+        android:layout_centerHorizontal="true"
+        android:textSize="23dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:autoText="false" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewBtnInfoH4"
+        android:src="@drawable/botoninfo"
+        android:layout_below="@+id/textViewEjercicioH4Info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:onClick="onClickIVBtnH4Info" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:id="@+id/imageViewVolverH4"
+        android:src="@drawable/botonvolver"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickIVBtnH4Volver" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageViewHombroSiguienteH4"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/botonsiguiente"
+        android:onClick="onClickIVBtnH4Siguiente"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageViewHombroAnteriorH4"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/botonanterior"
+        android:onClick="onClickIVBtnH4Anterior" />
+
+</RelativeLayout>

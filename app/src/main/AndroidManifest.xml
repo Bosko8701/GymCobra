@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="linces.gymcobra">
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@android:style/Theme.Holo.NoActionBar">
+
+
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Splash"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".LogIn1"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".LogIn2"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Musculos1"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros1"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros1Info"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros2"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros2Info"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros3"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros3Info"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros4"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros4Info"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros5"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros5Info"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:theme="@android:style/Theme.Holo.NoActionBar"
+        android:name=".Hombros6"
+        android:screenOrientation="portrait"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+</application>
+
+</manifest>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundlogin"
+    android:id="@+id/relativeLayoutBase">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textViewCorrecta"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Contraseña Correcta\nCargando..."
+        android:textColor="#FFFFFFFF"
+        android:layout_above="@+id/imageViewBotonAnteriorL2"
+        android:layout_marginBottom="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerInParent="true">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="190dp"
+        android:id="@+id/imageViewTexto"
+        android:src="@drawable/digitasena"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/imageViewBotonAnteriorL2"
+        android:src="@drawable/botonanterior"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickIVBtnAntL2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:id="@+id/relativeLayout"
+        android:visibility="visible"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/imageViewBtn3"
+            android:src="@drawable/circulo3"
+            android:onClick="onClickIVBtn3"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageViewBtn4"
+            android:layout_toStartOf="@+id/imageViewBtn4" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/imageViewBtn4"
+            android:src="@drawable/circulo4"
+            android:onClick="onClickIVBtn4"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/imageViewBtn2"
+            android:src="@drawable/circulo2"
+            android:onClick="onClickIVBtn2"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageViewBtn3"
+            android:layout_toStartOf="@+id/imageViewBtn3" />
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/imageViewBtn1"
+            android:src="@drawable/circulo1"
+            android:onClick="onClickIVBtn1"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageViewBtn2"
+            android:layout_toStartOf="@+id/imageViewBtn2" />
+    </RelativeLayout>
+
+</RelativeLayout>

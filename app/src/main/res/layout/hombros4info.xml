@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayoutBase"
+    android:background="@drawable/backgroundhombro">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageViewEjercicio"
+        android:src="@drawable/hombro4"
+        android:layout_marginTop="-15dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView5"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Levantamiento Frontal\n(de pie)"
+        android:id="@+id/textViewEjercicioH4Info"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:id="@+id/imageViewCerrarH4Info"
+        android:src="@drawable/botoncerrar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickIVBtnH4InfoCerrar"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Con los brazos estirados y mancuernas de bajo peso en las manos, comienza a subir primero una mano hasta la altura de el hombro manteniendo el brazo estirado, baja lentamente, repite el procedimiento con la otra mano de la misma forma \nRepeticiones recomendadas:\n12 - 15"
+        android:id="@+id/textViewInfoH4"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20dp" />
+
+</RelativeLayout>

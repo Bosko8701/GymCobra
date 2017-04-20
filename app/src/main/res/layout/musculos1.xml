@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayoutBase"
+    android:background="@drawable/backgroundmusculos1">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="68dp"
+        android:id="@+id/imageViewTexto"
+        android:src="@drawable/seleccionamusculo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="490dp"
+        android:id="@+id/imageViewEsquema"
+        android:src="@drawable/esquemacuerpo"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="490dp"
+        android:id="@+id/imageViewEsquemaHombro"
+        android:src="@drawable/esquemacuerpohombro"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="490dp"
+        android:id="@+id/imageViewEsquemaPecho"
+        android:src="@drawable/esquemacuerpopecho"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="490dp"
+        android:id="@+id/imageViewEsquemaBrazo"
+        android:src="@drawable/esquemacuerpobrazo"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageViewHombroLetras"
+        android:src="@drawable/hombroletras"
+        android:layout_alignLeft="@+id/imageViewBtnHombro"
+        android:layout_alignBottom="@+id/imageViewBtnHombro"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnHombro"
+        android:src="@drawable/circulo"
+        android:layout_alignTop="@+id/imageViewEsquema"
+        android:layout_marginTop="82dp"
+        android:layout_alignRight="@+id/imageViewEsquema"
+        android:layout_marginRight="85dp"
+        android:onClick="onClickIVBtnHombro"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageViewPechoLetras"
+        android:src="@drawable/pecholetras"
+        android:layout_alignBottom="@+id/imageViewBtnPecho"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="12dp"
+        android:layout_alignRight="@+id/imageViewBtnPecho"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnPecho"
+        android:src="@drawable/circulo"
+        android:layout_alignTop="@+id/imageViewEsquema"
+        android:layout_marginTop="92dp"
+        android:layout_alignLeft="@+id/imageViewEsquema"
+        android:layout_marginLeft="115dp"
+        android:onClick="onClickIVBtnPecho"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:id="@+id/imageViewBrazoLetras"
+        android:src="@drawable/brazoletras"
+        android:layout_marginRight="12dp"
+        android:layout_alignRight="@+id/imageViewBtnBrazo"
+        android:layout_alignTop="@+id/imageViewBtnBrazo"
+        android:layout_marginTop="-4dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnBrazo"
+        android:src="@drawable/circulo"
+        android:layout_alignTop="@+id/imageViewEsquema"
+        android:layout_marginTop="127dp"
+        android:layout_alignLeft="@+id/imageViewEsquema"
+        android:layout_marginLeft="72dp"
+        android:onClick="onClickIVBtnBrazo"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageViewAbdomenLetras"
+        android:src="@drawable/abdomenletras"
+        android:layout_alignLeft="@+id/imageViewBtnAbdomen"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/imageViewBtnAbdomen"
+        android:layout_marginBottom="-15dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnAbdomen"
+        android:src="@drawable/circulo"
+        android:layout_alignTop="@+id/imageViewEsquema"
+        android:layout_marginTop="145dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickIVBtnAbdomen"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="125dp"
+        android:id="@+id/imageViewOblicuosLetras"
+        android:src="@drawable/oblicuosletras"
+        android:layout_alignLeft="@+id/imageViewBtnOblicuo"
+        android:layout_alignTop="@+id/imageViewBtnOblicuo"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnOblicuo"
+        android:src="@drawable/circulo"
+        android:layout_alignTop="@+id/imageViewEsquema"
+        android:layout_marginTop="174dp"
+        android:layout_alignRight="@+id/imageViewEsquema"
+        android:layout_marginRight="100dp"
+        android:onClick="onClickIVBtnOblicuo"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageViewPiernaLetras"
+        android:src="@drawable/piernaletras"
+        android:layout_alignTop="@+id/imageViewBtnPierna"
+        android:layout_alignRight="@+id/imageViewBtnPierna"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnPierna"
+        android:src="@drawable/circulo"
+        android:layout_alignBottom="@+id/imageViewEsquema"
+        android:layout_marginBottom="190dp"
+        android:layout_alignLeft="@+id/imageViewEsquema"
+        android:layout_marginLeft="114dp"
+        android:onClick="onClickIVBtnPierna"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageViewPantorrillaLetras"
+        android:src="@drawable/pantorrillaletras"
+        android:layout_alignTop="@+id/imageViewBtnPantorrilla"
+        android:layout_alignLeft="@+id/imageViewBtnPantorrilla"
+        android:layout_marginLeft="12dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewBtnPantorrilla"
+        android:src="@drawable/circulo"
+        android:layout_alignRight="@+id/imageViewEsquema"
+        android:layout_marginRight="125dp"
+        android:layout_alignBottom="@+id/imageViewEsquema"
+        android:layout_marginBottom="92dp"
+        android:onClick="onClickIVBtnPantorrilla"
+        android:clickable="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>

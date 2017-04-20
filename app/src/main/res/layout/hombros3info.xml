@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayoutBase"
+    android:background="@drawable/backgroundhombro">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageViewEjercicio"
+        android:src="@drawable/hombro3"
+        android:layout_marginTop="-15dp"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView5"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Remo de pie\n(con cable)"
+        android:id="@+id/textViewEjercicioH3Info"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:id="@+id/imageViewCerrarH3Info"
+        android:src="@drawable/botoncerrar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickIVBtnH3InfoCerrar"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Desde la polea baja, coloca un manillar recto y tomalo con ambas manos casi juntas, flexionando las rodillas y con los brazos estirados hacia abajo inclinate ligeramente hacia atras y tira del manillar hasta la altura de tu barbilla, sosten por un momento y baja lentamente \nRepeticiones recomendadas:\n8 - 10"
+        android:id="@+id/textViewInfoH3"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20dp" />
+
+</RelativeLayout>

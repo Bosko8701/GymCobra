@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/relativeLayoutBase"
+    android:background="@drawable/backgroundhombro">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/imageViewEjercicio"
+        android:src="@drawable/hombro1"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView3"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Levantamiento Lateral\n(de pie)"
+        android:id="@+id/textViewEjercicioH1Info"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:foregroundGravity="center_vertical|center_horizontal" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:id="@+id/imageViewCerrarH1Info"
+        android:src="@drawable/botoncerrar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClickIVBtnH1InfoCerrar" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Coloca tus brazos estirados hacia abajo y sostén con tus manos unas mancuernas de bajo peso, despues levanta las pesas a la altura de tus hombros con un movimiento lento y constante para evitar lesiones, mantenlas un momento y baja despacio.\nRepeticiones recomendadas: 10 - 12"
+        android:id="@+id/textViewInfoH1"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="20dp" />
+
+</RelativeLayout>
